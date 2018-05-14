@@ -1,0 +1,43 @@
+@import '../../../../assets/styles/variables.scss';
+
+.items {
+  display: inline-block;
+}
+
+.buttons {
+  display: flex;
+  flex: 1;
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 250px;
+    background: $white;
+    border: 1px solid transparentize($primary, 0.9);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .left {
+    left: -15px;
+  }
+
+  .right {
+    left: 96%;
+  }
+}
+
+.material-icons {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3px;
+}
+
+

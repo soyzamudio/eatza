@@ -90,11 +90,17 @@
     "@angular-devkit/core" "0.6.1"
     rxjs "^6.0.0"
 
-"@angular/animations@^6.0.0":
+"@angular/animations@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-6.0.1.tgz#21fd5b059765b48c9823e05cfe470ccdd816e8b1"
   dependencies:
     tslib "^1.9.0"
+
+"@angular/cdk@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-6.0.1.tgz#dde0ef5b1b3ce9989136ca1a73af1de404141bfd"
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/cli@~6.0.1":
   version "6.0.1"
@@ -156,6 +162,12 @@
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.1.tgz#1e0681ce69eadeb6ac77411d36a82672bb89c68f"
 
+"@angular/material@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-6.0.1.tgz#17558dba6b9372df6cae1d248d2360c9570dc44a"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@^6.0.0":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.1.tgz#4831fcd457bf220c76d71ffffa6c41c625df7dfc"
@@ -181,6 +193,12 @@
     "@angular-devkit/core" "0.6.1"
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
+
+"@ngxs/store@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@ngxs/store/-/store-3.0.1.tgz#57209cce8ddf93bbcffc6dc599690291337a65be"
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@0.6.1":
   version "0.6.1"
@@ -3475,6 +3493,10 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
+lodash-es@^4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.10.tgz#62cd7104cdf5dd87f235a837f0ede0e8e5117e05"
+
 lodash.assign@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
@@ -3850,6 +3872,10 @@ neo-async@^2.5.0:
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+ngx-drag-scroll@^1.7.9:
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/ngx-drag-scroll/-/ngx-drag-scroll-1.7.9.tgz#f4963a6539fa36660a34521462df3f79dfac8b96"
 
 no-case@^2.2.0:
   version "2.3.2"
@@ -5752,7 +5778,7 @@ tsickle@^0.27.2:
     source-map "^0.6.0"
     source-map-support "^0.5.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
 

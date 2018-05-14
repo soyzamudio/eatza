@@ -1,0 +1,11 @@
+<div>
+  <za-search-bar></za-search-bar>
+  <za-card-slider headerTitle="Nuevos en Eatza" [newItem]="true" [cards]="mock.getAllRestaurants()"></za-card-slider>
+
+  <za-card-slider [headerTitle]="'Destacados en ' + location" [cards]="mock.getAllRestaurants()"></za-card-slider>
+
+  <za-section-header title="Categorias Populares"></za-section-header>
+
+  <za-section-header title="Cerca de ti"></za-section-header>
+  <za-item-card *ngFor="let item of mock.getAllRestaurants()" [item]="item"></za-item-card>
+</div>

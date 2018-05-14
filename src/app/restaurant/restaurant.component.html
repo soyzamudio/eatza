@@ -1,0 +1,7 @@
+<h1>{{ restaurant.title }}</h1>
+<h3>{{ restaurant.type }}</h3>
+<h3>
+  <span *ngFor="let category of restaurant.categories; let last = last">
+    {{ category }} <span *ngIf="!last">• </span>
+  </span>
+</h3>

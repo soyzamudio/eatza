@@ -1,0 +1,14 @@
+<za-section-header [title]="headerTitle"></za-section-header>
+<div #nav dragScroll [drag-scroll-disabled]="true" [scrollbar-hidden]="true">
+  <div class="items" *ngFor="let item of cards">
+    <za-item-card  [item]="item" [newItem]="newItem"></za-item-card>
+  </div>
+</div>
+<div class="buttons" *ngIf="cards.length > 4">
+  <button class="arrow left" (click)="moveLeft()">
+    <mat-icon>arrow_back_ios</mat-icon>
+  </button>
+  <button class="arrow right" (click)="moveRight()">
+    <mat-icon>arrow_forward_ios</mat-icon>
+  </button>
+</div>

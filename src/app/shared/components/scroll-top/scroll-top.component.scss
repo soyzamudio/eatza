@@ -1,0 +1,16 @@
+@import './../../../../assets/styles/variables.scss';
+
+.scroll {
+  position: sticky;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $green;
+  height: 50px;
+  width: 50px;
+  bottom: 20px;
+  right: 20px;
+  float: right;
+}
+

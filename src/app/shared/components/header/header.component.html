@@ -1,0 +1,31 @@
+
+<mat-toolbar class="header">
+  <mat-toolbar-row>
+    <a routerLink="/" class="logo">Eatza</a>
+    <span class="spacer"></span>
+    <span>
+      <button
+        mat-button
+        class="time"
+        [matMenuTriggerFor]="menu">
+        AHORA
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+      <span class="para">para</span>
+    </span>
+    <span>
+      <mat-icon class="address-icon">place</mat-icon>
+      <input
+        type="text"
+        class="address-bar"
+        placeholder="Introduce tu dirección..."
+        size="18">
+    </span>
+    <span class="spacer"></span>
+    <img class="user-image">
+    <mat-icon>shopping_basket</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
