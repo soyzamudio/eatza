@@ -1,0 +1,26 @@
+@import '../../../../assets/styles/variables.scss';
+
+.info {
+  margin: 0 0 50px;
+
+  .store-info {
+    margin: 5px 0;
+  }
+
+  .extra-info {
+    margin-top: 10px;
+
+    .chip {
+      background: transparentize($primary, 0.9);
+      margin-right: 5px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: $green;
+    }
+  }
+
+}
+

@@ -1,7 +1,30 @@
+<za-restaurant-info
+  [name]="restaurant.title"
+  [type]="restaurant.type"
+  [categories]="restaurant.categories"
+  [address]="restaurant.address"
+  [closingTime]="restaurant.closeTimeLabel"
+  [city]="restaurant.city"
+  [ETA]="restaurant.ETA"
+  [priceRange]="restaurant.priceRange">
+</za-restaurant-info>
+
+<div *ngFor="let menuCat of getMenuCategories()">
+  <za-menu-section [restaurant]="restaurant" [category]="menuCat"></za-menu-section>
+</div>
+
+<!--
 <h1>{{ restaurant.title }}</h1>
 <h3>{{ restaurant.type }}</h3>
 <h3>
   <span *ngFor="let category of restaurant.categories; let last = last">
     {{ category }} <span *ngIf="!last">• </span>
   </span>
-</h3>
+</h3> -->
+
+<!-- Categories Component -->
+
+<!-- Menu Component -->
+
+
+

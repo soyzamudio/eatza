@@ -1,0 +1,36 @@
+@import '../../../../../assets/styles/variables.scss';
+
+.menu-item {
+  display: inline-block;
+  border: 1px solid transparentize($primary, 0.95);
+  padding: 10px 15px;
+  width: 500px;
+  margin: 5px 10px;
+  border-radius: 2px;
+
+  &:hover {
+    background: transparentize($primary, 0.98);
+  }
+
+  .price {
+    font-weight: bold;
+    color: $green;
+  }
+
+  .add-to-cart {
+    background: $green;
+    padding: 5px 10px;
+    color: $white;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+
+    &:hover {
+      background: darken($green, 10%);
+    }
+  }
+}

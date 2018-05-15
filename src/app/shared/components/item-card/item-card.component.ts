@@ -2,16 +2,7 @@ import kebabCase from 'lodash-es/kebabCase';
 
 import { Component, Input } from '@angular/core';
 
-export interface ItemCard {
-  id: string;
-  title?: string;
-  type?: string;
-  categories?: string[];
-  ETA?: string;
-  priceRange?: string;
-  image?: string;
-  city?:  string;
-}
+import { ItemCard } from '../../services/mock/mock.service';
 
 @Component({
   selector: 'za-item-card',

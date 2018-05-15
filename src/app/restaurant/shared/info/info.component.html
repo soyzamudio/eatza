@@ -1,0 +1,16 @@
+<div class="info">
+  <h1>{{ name }}</h1>
+  <div class="store-info">
+    <span>{{ ETA }} • {{ address }} • {{ city }}</span>
+  </div>
+  <div class="store-info">
+    <span>Ordena hasta las {{ closingTime }}</span>
+  </div>
+  <div class="extra-info">
+    <span class="chip">$39 EL ENVIO</span>
+    <span class="chip">{{ priceRange }}</span>
+    <span class="chip" *ngFor="let category of categories; let last = last">
+      {{ category }}
+    </span>
+  </div>
+</div>
