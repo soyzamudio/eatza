@@ -17,6 +17,15 @@
     color: $green;
   }
 
+  .quantity {
+    float: right;
+    padding: 7px 10px;
+    width: 25px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+  }
+
   .add-to-cart {
     background: $green;
     padding: 5px 10px;

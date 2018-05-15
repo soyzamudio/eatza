@@ -17,7 +17,6 @@ export class RestaurantComponent {
   constructor(private actiavedRoute: ActivatedRoute, private mock: MockService, private titleService: Title) {
     this.restaurantId = this.actiavedRoute.snapshot.params.id;
     this.restaurant = this.mock.getStoreById(this.restaurantId);
-
     this.titleService.setTitle(`${this.restaurant.title} • ${this.restaurant.city} • Eatza`);
   }
 

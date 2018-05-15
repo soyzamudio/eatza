@@ -23,6 +23,11 @@
     color: $black;
     margin: 5px 0;
 
+    a {
+      text-decoration: none;
+      color: $black;
+    }
+
     .item-new {
       color: $green;
       background: transparentize($primary, 0.95);
@@ -37,6 +42,7 @@
     font-size: 14px;
     color: $green;
     margin: 0 0 10px;
+    cursor: pointer;
   }
 
   .item-info {

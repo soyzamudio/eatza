@@ -1,12 +1,22 @@
-<a [routerLink]="getUrl()" class="item-card">
-  <img class="item-image" [src]="item.image">
-  <div class="item-title">{{ item.title }} <span class="item-new" *ngIf="newItem">Nuevo!</span></div>
+<div class="item-card">
+  <a [routerLink]="getUrl()">
+      <img class="item-image" [src]="item.image">
+  </a>
+  <div class="item-title">
+    <a [routerLink]="getUrl()">
+      {{ item.title }} <span class="item-new" *ngIf="newItem">Nuevo!</span>
+    </a>
+  </div>
   <div class="item-subtitle">
     <span>{{ item.type }} • </span>
-    <span *ngFor="let cat of item.categories; let last = last;">{{ cat }} <span *ngIf="!last">• </span> </span>
+    <span
+      *ngFor="let cat of item.categories; let last = last;"
+      (click)="goToSearch(cat)">
+      {{ cat }} <span *ngIf="!last">• </span>
+    </span>
   </div>
   <div class="item-info">
     <span class="chip">{{ item.priceRange }}</span>
     <span class="chip">{{ item.ETA }}</span>
   </div>
-</a>
+</div>

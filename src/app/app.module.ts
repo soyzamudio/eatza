@@ -19,6 +19,7 @@ import { ItemCardComponent } from './shared/components/item-card/item-card.compo
 import { ScrollTopComponent } from './shared/components/scroll-top/scroll-top.component';
 import { SearchBarComponent } from './shared/components/search-bar/search-bar.component';
 import { SectionHeaderComponent } from './shared/components/section-header/section-header.component';
+import { CheckoutService } from './shared/services/checkout/checkout.service';
 import { MockService } from './shared/services/mock/mock.service';
 import { ScrollerService } from './shared/services/scroller/scroller.service';
 
@@ -43,9 +44,9 @@ import { ScrollerService } from './shared/services/scroller/scroller.service';
     DragScrollModule,
     MaterialModule,
     AppRoutingModule,
-    NgxsModule.forRoot([])
+    NgxsModule.forRoot([]),
   ],
-  providers: [ScrollerService, MockService, Title],
+  providers: [ScrollerService, MockService, Title, CheckoutService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

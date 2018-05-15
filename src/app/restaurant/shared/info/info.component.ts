@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'za-restaurant-info',
@@ -32,4 +33,10 @@ export class RestaurantInfoComponent {
 
   @Input()
   priceRange: string;
+
+  constructor(private router: Router) {}
+
+  goToSearch(cat: string) {
+    this.router.navigate(['/search'],  { queryParams: { q: cat.toLocaleLowerCase() } });
+  }
 }

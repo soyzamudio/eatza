@@ -1,5 +1,5 @@
 <div class="menu-section">
   <za-section-header [title]="category"></za-section-header>
-  <za-menu-item *ngFor="let item of getMenuByCategory()" [item]="item"></za-menu-item>
+  <za-menu-item *ngFor="let item of getMenuByCategory()" [item]="item" [restaurantId]="restaurant.id"></za-menu-item>
 </div>
 

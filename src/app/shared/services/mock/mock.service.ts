@@ -39,6 +39,8 @@ export class MockService {
         categories: ['recomendado', 'entradas', 'hamburguesas', 'postres', 'bebidas'],
         recomendado: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -46,6 +48,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -53,6 +57,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -62,6 +68,8 @@ export class MockService {
         ],
         entradas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -69,6 +77,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -76,6 +86,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -85,6 +97,8 @@ export class MockService {
         ],
         hamburguesas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -92,6 +106,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -99,6 +115,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -108,6 +126,8 @@ export class MockService {
         ],
         postres: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -115,6 +135,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -122,6 +144,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -131,6 +155,8 @@ export class MockService {
         ],
         bebidas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -138,6 +164,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -145,6 +173,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -170,6 +200,8 @@ export class MockService {
         categories: ['recomendado', 'entradas', 'hamburguesas', 'postres', 'bebidas'],
         recomendado: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -177,6 +209,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -184,6 +218,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -193,6 +229,8 @@ export class MockService {
         ],
         entradas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -200,6 +238,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -207,6 +247,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -216,6 +258,8 @@ export class MockService {
         ],
         hamburguesas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -223,6 +267,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -230,6 +276,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -239,6 +287,8 @@ export class MockService {
         ],
         postres: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -246,6 +296,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -253,6 +305,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -262,6 +316,8 @@ export class MockService {
         ],
         bebidas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -269,6 +325,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -276,6 +334,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -301,6 +361,8 @@ export class MockService {
         categories: ['recomendado', 'entradas', 'hamburguesas', 'postres', 'bebidas'],
         recomendado: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -308,6 +370,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -315,6 +379,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -324,6 +390,8 @@ export class MockService {
         ],
         entradas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -331,6 +399,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -338,6 +408,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -347,6 +419,8 @@ export class MockService {
         ],
         hamburguesas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -354,6 +428,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -361,6 +437,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -370,6 +448,8 @@ export class MockService {
         ],
         postres: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -377,6 +457,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -384,6 +466,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -393,6 +477,8 @@ export class MockService {
         ],
         bebidas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -400,6 +486,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -407,6 +495,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -432,6 +522,8 @@ export class MockService {
         categories: ['recomendado', 'entradas', 'hamburguesas', 'postres', 'bebidas'],
         recomendado: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -439,6 +531,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -446,6 +540,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -455,6 +551,8 @@ export class MockService {
         ],
         entradas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -462,6 +560,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -469,6 +569,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -478,6 +580,8 @@ export class MockService {
         ],
         hamburguesas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -485,6 +589,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -492,6 +598,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -501,6 +609,8 @@ export class MockService {
         ],
         postres: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -508,6 +618,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -515,6 +627,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -524,6 +638,8 @@ export class MockService {
         ],
         bebidas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -531,6 +647,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -538,6 +656,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -563,6 +683,8 @@ export class MockService {
         categories: ['recomendado', 'entradas', 'hamburguesas', 'postres', 'bebidas'],
         recomendado: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -570,6 +692,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -577,6 +701,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -586,6 +712,8 @@ export class MockService {
         ],
         entradas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -593,6 +721,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -600,6 +730,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -609,6 +741,8 @@ export class MockService {
         ],
         hamburguesas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -616,6 +750,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -623,6 +759,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -632,6 +770,8 @@ export class MockService {
         ],
         postres: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -639,6 +779,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -646,6 +788,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -655,6 +799,8 @@ export class MockService {
         ],
         bebidas: [
           {
+            id: '123456',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -662,6 +808,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '654321',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
@@ -669,6 +817,8 @@ export class MockService {
               ut ultricies lectus facilisis ut. Praesent dictum eros.'
           },
           {
+            id: '567890',
+            quantity: 0,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',

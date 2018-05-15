@@ -26,6 +26,14 @@
     </span>
     <span class="spacer"></span>
     <img class="user-image">
-    <mat-icon>shopping_basket</mat-icon>
+    <button class="basket" (click)="getTotal()">
+      <mat-icon>shopping_basket</mat-icon>
+    </button>
+    <span
+      *ngIf="getCheckoutCount()"
+      class="badge">
+      {{ getCheckoutCount() }}
+    </span>
   </mat-toolbar-row>
 </mat-toolbar>
+

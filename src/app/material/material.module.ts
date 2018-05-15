@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { MatBadgeModule } from '@angular/material/badge';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatIconModule } from '@angular/material/icon';
@@ -13,7 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCardModule,
     MatMenuModule,
     BrowserAnimationsModule,
-    MatChipsModule
+    MatChipsModule,
+    MatBadgeModule
   ],
   exports: [
     MatToolbarModule,
@@ -21,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCardModule,
     MatMenuModule,
     BrowserAnimationsModule,
-    MatChipsModule
+    MatChipsModule,
+    MatBadgeModule
   ]
 })
 export class MaterialModule {}

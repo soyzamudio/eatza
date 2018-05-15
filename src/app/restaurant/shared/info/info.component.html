@@ -9,7 +9,7 @@
   <div class="extra-info">
     <span class="chip">$39 EL ENVIO</span>
     <span class="chip">{{ priceRange }}</span>
-    <span class="chip" *ngFor="let category of categories; let last = last">
+    <span class="chip" *ngFor="let category of categories; let last = last" (click)="goToSearch(category)">
       {{ category }}
     </span>
   </div>
