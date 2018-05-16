@@ -1,4 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { CheckoutService } from './../../services/checkout/checkout.service';
 
@@ -8,10 +9,14 @@ import { CheckoutService } from './../../services/checkout/checkout.service';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  constructor(public checkout: CheckoutService) {}
+  constructor(public checkout: CheckoutService, private router: Router) {}
 
   getCheckoutCount() {
-    return this.checkout.cart.length ? this.checkout.cart.length : 0;
+    return this.checkout.cart.length ? this.checkout.getItemCount() : 0;
+  }
+
+  goToCheckout() {
+    this.router.navigate(['/checkout']);
   }
 
   getTotal() {

@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
-import { CheckoutService } from './../../../../shared/services/checkout/checkout.service';
+import { ModalService } from './../../../../shared/services/modal/modal.service';
+import { IngredientsComponent } from '../../ingredients/ingredients.component';
 
 @Component({
   selector: 'za-menu-item',
@@ -14,27 +15,9 @@ export class MenuItemComponent {
   @Input()
   restaurantId: string;
 
-  quantity = 0;
+  constructor(private modal: ModalService) {}
 
-  constructor(private checkout: CheckoutService) {}
-
-  increaseQuantity() {
-    this.quantity++;
-  }
-
-  decreaseQuantity() {
-    if (this.quantity > 0) {
-      this.quantity--;
-    }
-  }
-
-  addToCart() {
-    if (this.item.quantity > 0) {
-      this.checkout.addToCheckout(this.item, this.restaurantId);
-    }
-  }
-
-  getSubtotal() {
-    console.log(this.checkout.getSubtotal());
+  openIngreditenModal() {
+    this.modal.init(IngredientsComponent, { item: this.item, restaurantId: this.restaurantId }, {});
   }
 }

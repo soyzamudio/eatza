@@ -523,146 +523,371 @@ export class MockService {
         recomendado: [
           {
             id: '123456',
-            quantity: 0,
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '654321',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '567890',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
         ],
         entradas: [
           {
             id: '123456',
-            quantity: 0,
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '654321',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '567890',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
         ],
         hamburguesas: [
           {
             id: '123456',
-            quantity: 0,
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '654321',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '567890',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
         ],
         postres: [
           {
             id: '123456',
-            quantity: 0,
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '654321',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '567890',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
         ],
         bebidas: [
           {
             id: '123456',
-            quantity: 0,
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '654321',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
           {
-            id: '567890',
-            quantity: 0,
+            id: '123456',
+            quantity: 1,
             name: 'Hamburguesa Doble',
             price: 120,
             priceLabel: '$120',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit purus nunc, \
-              ut ultricies lectus facilisis ut. Praesent dictum eros.'
+              ut ultricies lectus facilisis ut. Praesent dictum eros.',
+            ingredients: [
+              {
+                name: 'Pan',
+                included: true,
+              },
+              {
+                name: 'Carne',
+                included: true,
+              },
+              {
+                name: 'Queso',
+                included: true,
+              }
+            ],
+            specialInstructions: '',
           },
         ]
       }

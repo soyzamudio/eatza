@@ -1,9 +1,9 @@
 <div class="menu-item">
-  <h2 (click)="getSubtotal()">{{ item.name }}</h2>
+  <h2>{{ item.name }}</h2>
   <p class="description">{{ item.description }}</p>
   <p class="price">
     {{ item.priceLabel }}
-    <button class="add-to-cart" (click)="addToCart()">
+    <button class="add-to-cart" (click)="openIngreditenModal()">
       AGREGAR
     </button>
   </p>

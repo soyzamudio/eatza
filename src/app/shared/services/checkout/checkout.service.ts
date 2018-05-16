@@ -20,6 +20,12 @@ export class CheckoutService {
     }
   }
 
+  getItemCount(): number {
+    return this.cart
+      .map((item) => item.quantity)
+      .reduce((a, b) => a + b);
+  }
+
   getSubtotalLabel(): string {
     if (!this.cart.length) {
       return '$0';

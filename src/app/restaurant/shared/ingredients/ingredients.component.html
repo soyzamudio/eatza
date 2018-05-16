@@ -1,0 +1,35 @@
+<div class="ingredients-modal">
+  <header>
+    <h1>{{ item.name }}</h1>
+    <p>{{ item.description }}</p>
+  </header>
+
+  <div class="ingredients">
+    <h3>Ingredientes</h3>
+    <div class="ingredient" *ngFor="let ingredient of item.ingredients">
+      <input id="ingredient-box" [name]="'ingredient-' + ingredient.name.toLowerCase()" type="checkbox" [checked]="ingredient.included">
+      <label for="'ingredient-' + ingredient.name.toLowerCase()">{{ ingredient.name }}</label>
+    </div>
+
+    <div>
+      <h3>Comentarios Especiales</h3>
+      <input
+        class="comment-box"
+        type="text"
+        placeholder="Agrega una nota (salsa extra, sin cebolla, etc...)."
+        [value]="commentBox">
+    </div>
+  </div>
+
+  <footer>
+    <span class="stepper">
+      <a class="stepper-btn" (click)="decreaseQuantity()">-</a>
+      <span>{{ item.quantity }}</span>
+      <a class="stepper-btn" (click)="increaseQuantity()">+</a>
+    </span>
+    <button (click)="addToCart()" class="add-to-cart">
+      AGREGAR {{ item.quantity }} A LA ORDEN <span class="total">${{ item.quantity * item.price }}</span>
+    </button>
+  </footer>
+
+</div>

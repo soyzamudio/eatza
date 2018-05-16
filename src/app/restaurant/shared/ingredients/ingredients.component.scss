@@ -1,0 +1,83 @@
+@import '../../../../assets/styles/variables.scss';
+
+.ingredients-modal {
+  width: 560px;
+  height: 600px;
+}
+
+header {
+  border-bottom: 1px solid transparentize($primary, 0.95);
+  padding: 20px 20px 10px;
+  width: 560px;
+  background: $white;
+}
+
+.ingredients {
+  padding: 10px 20px 20px;
+  width: 560px;
+  overflow-y: scroll;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  .ingredient {
+    margin: 10px 0;
+
+    label {
+      margin-left: 15px;
+      font-size: 18px;
+    }
+  }
+
+  .comment-box {
+    box-sizing : border-box;
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid transparentize($primary, 0.95);
+    border-radius: 2px;
+    font-size: 14px;
+    outline: none;
+  }
+}
+
+footer {
+  background: $white;
+  border-top: 1px solid transparentize($primary, 0.95);
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+  width: 560px;
+  font-size: 24px;
+  user-select: none;
+
+  .stepper-btn {
+    margin: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .add-to-cart {
+    background: $green;
+    padding: 10px 20px;
+    color: $white;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    width: 300px;
+    text-align: center;
+    font-weight: 400;
+    float: right;
+
+    &:hover {
+      background: darken($green, 10%);
+    }
+
+    .total {
+      font-weight: 300;
+      float: right;
+    }
+  }
+}
