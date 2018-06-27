@@ -2,6 +2,8 @@ import find from 'lodash-es/find';
 
 import { Injectable } from '@angular/core';
 
+import { Checkout } from './../../../checkout/checkout.interface';
+
 export interface ItemCard {
   id: string;
   title?: string;
@@ -1055,7 +1057,45 @@ export class MockService {
     },
   ];
 
+  order: Checkout = {
+    orderId: '123456',
+    deliveryInformation: {
+      storeInfo: {
+        address: {
+          street: 'Avenida 5 y 6 de Julio 719',
+          city: 'Veracruz',
+          zipcode: '91940',
+          county: 'Colonia Zaragoza',
+          reference: 'Entre Santos Perez Abascal y Horacio Diaz',
+        },
+        retailer: {
+          name: 'Las Alitas',
+          phoneNumber: '2292292292',
+          storeId: '1234567890',
+        },
+      },
+      clientInfo: {
+        address: {
+          street: 'Avenida 5 y 6 de Julio 719',
+          city: 'Veracruz',
+          zipcode: '91940',
+          county: 'Colonia Zaragoza',
+          reference: 'Entre Santos Perez Abascal y Horacio Diaz',
+        },
+        client: {
+          fullName: 'Jose Zamudio',
+          phoneNumber: '2292292292',
+        },
+      },
+      ETA: '20 minutes,'
+    }
+  }
+
   constructor() { }
+
+  getCheckoutOrder(): Checkout {
+    return this.order;
+  }
 
   getAllRestaurants(): Array<ItemCard> {
     return this.items;
